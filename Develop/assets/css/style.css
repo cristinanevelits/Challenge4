@@ -1,0 +1,55 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+#timer {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#question {
+    margin-bottom: 20px;
+}
+
+#choices {
+    list-style-type: none;
+    padding: 0;
+}
+
+#choices li {
+    margin-bottom: 10px;
+}
+
+#submit-btn, #save-btn, #play-again-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#high-scores {
+    text-align: left;
+    padding-left: 0;
+}
+
+#high-scores li {
+    margin-bottom: 10px;
+}
+
+.correct {
+    color: rgb(163, 255, 163);
+}
+
+.incorrect {
+    color: rgb(255, 130, 130);
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Coding Quiz Challenge</title>
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+<section class="card">
+    <h1>Coding Quiz Challenge</h1>
+    <div id="quizSection">
+    <div id="timer">Time: <span id="time">0</span></div>
+    <div id="questionSection">
+        <h2 id="question"></h2>
+        <ul id="choices"></ul>
+    </div>
+    <button id="submit-btn" disabled>Submit</button>
+    </div>
+    <div id="scoreSection" class="hidden">
+    <h2>Your Score: <span id="final-score"></span></h2>
+    <label for="initials">Enter your initials:</label>
+    <input type="text" id="initials">
+    <button id="save-btn">Save</button>
+    </div>
+    <div id="high-scores-container" class="hidden">
+    <h2>High Scores</h2>
+    <ol id="high-scores"></ol>
+    <button id="play-again-btn">Play Again</button>
+    </div>
+</section>
+
+<script src="quiz.js"></script>
+</body>
+</html>
