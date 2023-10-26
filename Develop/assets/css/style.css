@@ -1,55 +1,67 @@
+/* Add your CSS styles to make your quiz visually appealing */
 .container {
-    max-width: 600px;
+    text-align: center;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center;
+    background-color: #fbafe3;
+    border-radius: 5px;
 }
 
-h1, h2 {
-    color: #333;
+h1 {
+    font-size: 36px;
 }
 
-.hidden {
-    display: none;
+#quiz {
+    background-color: #b3ffcc;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+    background-color: #b3ffcc;
+}
+
+button {
+    background-color: #89c2ff;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 #timer {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-#question {
-    margin-bottom: 20px;
-}
-
-#choices {
-    list-style-type: none;
-    padding: 0;
-}
-
-#choices li {
-    margin-bottom: 10px;
-}
-
-#submit-btn, #save-btn, #play-again-btn {
-    padding: 10px 20px;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
-#high-scores {
-    text-align: left;
-    padding-left: 0;
+#game-over {
+    display: none;
 }
 
-#high-scores li {
-    margin-bottom: 10px;
+label {
+    font-weight: bold;
 }
 
-.correct {
-    color: rgb(163, 255, 163);
+input {
+    padding: 5px;
+    margin: 5px;
 }
 
-.incorrect {
-    color: rgb(255, 130, 130);
+.feedback {
+    display: none; /* Initially hide the feedback element */
+    color: rgb(236, 39, 163); /* You can change the color to your preference */
+    font-weight: bold;
+}
+
+.top-score {
+    display: none;
+    font-weight: bold;
 }
